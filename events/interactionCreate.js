@@ -2,7 +2,6 @@ const decide = require("../commands/decide");
 
 module.exports = {
     name: "interactionCreate",
-    once: true,
     async execute (interaction) {
         if(interaction.isCommand()){
 
