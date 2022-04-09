@@ -1,5 +1,11 @@
 require("dotenv").config();
 const fs = require("fs");
+const Database = require("./config/Database");
+
+const db = new Database();
+
+db.connect();
+
 const {Client, Intents, Collection, Interaction} = require("discord.js");
 const { Console } = require("console");
 const client = new Client({
