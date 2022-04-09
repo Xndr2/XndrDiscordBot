@@ -6,7 +6,7 @@ module.exports = {
         .setDescription(":thumbsup:"),
 
         async execute(interaction) {
-            const messages = ["Sex", "sex", "when sex update?"]
+            const messages = ["Sex", "sex", "when sex update?", ":thumbsup:", "NO WAY", "(real)"]
             const randomMessage = messages[Math.floor(Math.random() * messages.length)];
             await interaction.reply(randomMessage);
         }
