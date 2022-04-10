@@ -42,6 +42,14 @@ for(const file of eventFiles) {
         }
 }
 
+/* client.on('interactionCreate', interaction => {
+    if (!interaction.isButton()) return;
+    var rulesRead = false;
+    if (interaction.customId === 'rules') {
+        interaction.update()
+    }
+    
+}); */
 
 
 
