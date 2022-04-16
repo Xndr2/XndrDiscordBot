@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require('mongoose'); // https://www.youtube.com/watch?v=SzcfmUUjvcA&t=1171s
 require('dotenv').config();
 
 class Database {
