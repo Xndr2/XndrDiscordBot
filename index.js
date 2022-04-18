@@ -73,7 +73,7 @@ client.on('interactionCreate', interaction => {
     
 });
 
-client.on('messageReactionAdd', (reaction, author) => {
+/* client.on('messageReactionAdd', (reaction, author) => {
     if(reaction.message.reactions.cache.get('👍')) return;
     if(reaction.message.channel.id === '964867563848888320'){
         if(reaction.message.reactions.cache.get('✅').count == 2){
@@ -90,7 +90,7 @@ client.on('messageReactionAdd', (reaction, author) => {
          }
     }
     
-})
+}) */
 
 client.on('messageCreate', message => {
     if(message.channel.id === '964867563848888320'){
